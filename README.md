@@ -20,3 +20,6 @@
 1) Что-бы вы установили несколько плат нам нужно в "Дополнительные ссылки для Менеджера плат" написать так:  
 ```https://dl.espressif.com/dl/package_esp32_index.json, https://arduino.esp8266.com/stable/package_esp8266com_index.json```  
 2) В пункте Плата выбрать Generic esp8266 Module
+
+## • Установка Принимающего (обработчик) модуля
+Он работет на Arduino nano. Ничего скачивать не надо!)
