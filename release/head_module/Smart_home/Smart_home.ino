@@ -23,16 +23,16 @@
 //------------Настройка системы------------
 //=========================================
 //******Настройка Wi-fi сети(и интернета)****
-const char* ssid = "ASUS_60"; //Название(SSID) WI-FI
-const char* password = "3369aef687cd"; //Пароль от WI-FI
+const char* ssid = " "; //Название(SSID) WI-FI
+const char* password = " "; //Пароль от WI-FI
 
-const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=Chusovoy,567434,pt&APPID="; //Сайт OpenWeatherMap, с которого берётся инфа о погоде. Подробнее в репозитории(в самом начале)
-const String key = "4b79ee3cc5f9a79b300fad9af01428fd"; //Токен OpenWeatherMap
+const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=ГОРОД,ID ГОРОДА,pt&APPID="; //Сайт OpenWeatherMap, с которого берётся инфа о погоде. Подробнее в репозитории(в самом начале)
+const String key = " "; //Токен OpenWeatherMap
 const String ip_bmp = "http://192.168.1.219/"; //IP модуля к котрому подключён барометр
 
 #define ENABLE_AUHT 1
-const char* login_auth = "FtXivan";
-const char* password_auth = "asuste123qwert";
+const char* login_auth = "логин";
+const char* password_auth = "пароль";
 //=========================================
 //*******Настройка NRF24(радио модуль)*******
 #define PIN_CE_NRF24 4  //Пин CE подключенный к ESP32
